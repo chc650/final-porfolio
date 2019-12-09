@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>work</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="./styleWork.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <script src="jquery.min.js"></script>
+    <script src="jquery.cycle.all.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+
+    <section id="work" class="work">
+
+        <div class="workBody">
+            <div class="frame"></div>
+            <img id="projImage" class="back" src="p2.png" />
+            <div class="items" onmouseover="noreverse()" onmouseout="reverse()">
+                <a href="#dart" class="item" onmouseenter="changeImage('baby.gif','orange')">
+                    <div class="workBlock">
+                        <div class="workCat">
+                            <h2>3D Modeling<br>&Animation</h2>
+                        </div>
+                        <div class="workNum">
+                            <h1>/01</h1>
+                        </div>
+
+                    </div>
+                    <div class="workInfo">
+                        <p class="workTool">MAYA / CINEMA4D / MOTIVE</p>
+                        <h3 class="workCatDetail"> 3D.Animation.Modeling.Rendering.Rigging.MoCap </h3>
+                    </div>
+                </a>
+                <a href="#mograph" class="item" onmouseenter="changeImage('stuff.gif','red')">
+                    <div class="workBlock">
+                        <div class="workCat">
+                            <h2>Motion<br>Graphics</h2>
+                        </div>
+                        <div class="workNum">
+                            <h1>/02</h1>
+                        </div>
+                    </div>
+                    <div class="workInfo">
+                        <p class="workTool">AFTER EFFECT / ANIMATE / PHOTOSHOP / ILLUSTRATOR</p>
+                        <h3 class="workCatDetail"> MoGraphDesign.Animation.VFX.Storytelling.Rotoscope.SoundDesign </h3>
+                    </div>
+                </a>
+                <a href="#geart" class="item" onmouseenter="changeImage('cellularsolarsystem.gif','purple')">
+                    <div class="workBlock">
+                        <div class="workCat">
+                            <h2>Generative<br>Art</h2>
+                        </div>
+                        <div class="workNum">
+                            <h1>/03</h1>
+                        </div>
+                    </div>
+                    <div class="workInfo">
+                        <p class="workTool">P5JS / PROCESSING / HTML CSS JS
+                        </p>
+                        <h3 class="workCatDetail"> Programming.VisualDesign.InteractionDesign.UXUIDesign </h3>
+                    </div>
+                </a>
+                <a href="#interact" class="item" onmouseenter="changeImage('circus.gif','green')">
+                    <div class="workBlock">
+                        <div class="workCat">
+                            <h2>Interactivity<br>Design</h2>
+                        </div>
+                        <div class="workNum">
+                            <h1>/04</h1>
+                        </div>
+                    </div>
+                    <div class="workInfo">
+                        <p class="workTool">UNREAL ENGINE4 / MAXMSP / MOTIVE / ARDUINO
+                        </p>
+                        <h3 class="workCatDetail"> 3D.Gaming.VR.MoCap.VJ.InteractionDesign.SoundDesign </h3>
+                    </div>
+                </a>
+                <a href="#pcom" class="item" onmouseenter="changeImage('emoji.gif','blue')">
+                    <div class="workBlock">
+                        <div class="workCat">
+                            <h2>Physical<br>Computing</h2>
+                        </div>
+                        <div class="workNum">
+                            <h1>/05</h1>
+                        </div>
+                    </div>
+                    <div class="workInfo">
+                        <p class="workTool">ARDUINO / P5JS / HTML CSS JS</p>
+                        <h3 class="workCatDetail">
+                            Programming.ExperimentalInstallation.InteractionDesign.Prototype.Fabrication </h3>
+                    </div>
+                </a>
+                <a href="#game" class="item" onmouseenter="changeImage('jellyfish.gif','grey')">
+                    <div class="workBlock">
+                        <div class="workCat">
+                            <h2>Game<br>Development</h2>
+                        </div>
+                        <div class="workNum">
+                            <h1>/06</h1>
+                        </div>
+                    </div>
+                    <div class="workInfo">
+                        <p class="workTool">UNITY / MAYA</p>
+                        <h3 class="workCatDetail"> GameDevelopment.InteractionDesign.3D.Modeling.Programming </h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="navNum">
+        <div class="navTitle">
+            <a href="#dart" class="item">
+                <p>3D modeling<br>&animation</p>
+                <h4>/01</h4>
+            </a>
+        </div>
+        <div class="navTitle">
+            <a href="#mograph" class="item">
+                <p>motion<br>graphics</p>
+                <h4>/02</h4>
+            </a>
+        </div>
+        <div class="navTitle">
+            <a href="#geart" class="item">
+                <p>generative<br>art</p>
+                <h4>/03</h4>
+            </a>
+        </div>
+        <div class="navTitle">
+            <a href="#interact" class="item">
+                <p>Interactivity<br>design</p>
+                <h4>/04</h4>
+            </a>
+        </div>
+        <div class="navTitle">
+            <a href="#pcom" class="item">
+                <p>physical<br>computing</p>
+                <h4>/05</h4>
+            </a>
+        </div>
+        <div class="navTitle">
+            <a href="#game" class="item" onmouseenter="changeImage('jellyfish.gif','grey')">
+                <p>game<br>development</p>
+                <h4>/06</h4>
+            </a>
+        </div>
+
+    </div>
+    <section>
+        <div class="footBack4"></div>
+    </section>
+
+    <section class="dart" id="dart">
+        <div class="secframe"></div>
+        <div class="vl">
+            <p>3d modeling & animation</p>
+        </div>
+        <div class="workTitle">
+            <span class="workBInteract">
+                <div class="work1">
+                    <a href="https://www.kasperchou.com/juicebox" target="blank">
+                        <img src="juicebox.gif" class="workThumb"></img></a>
+                    <div class="workName">juicebox</div>
+                </div>
+                <div class="work2">
+                    <a href="https://www.kasperchou.com/walkcycle" target="blank">
+                        <img src="chicken.gif" class="workThumb"></img></a>
+                    <div class="workName">chicken</div>
+                </div>
+                <div class="work3">
+                    <a href="https://youtu.be/5_cu9C1Ai9o" target="blank">
+                        <img src="baby.gif" class="workThumb"></img></a>
+                    <div class="workName">baby<br>(StillOnProgress)</div>
+
+                </div>
+                <div class="work4">
+                    <a href="https://www.kasperchou.com/modeling" target="blank">
+                        <img src="modeling.gif" class="workThumb"></img></a>
+                    <div class="workName">modeling</div>
+
+                </div>
+                <div class="work5">
+                    <a href="https://www.kasperchou.com/3da_rencentwork" target="blank">
+                        <img src="interior.gif" class="workThumb"></img></a>
+                    <div class="workName">interior</div>
+
+                </div>
+            </span>
+        </div>
+        <div class="vlb">
+            <p>SCROLL for MotionGraphics</p>
+        </div>
+
+    </section>
+    <section>
+        <div class="footBack3"></div>
+    </section>
+    <section class="mograph" id="mograph">
+        <div class="vl">
+            <p>motion graphics</p>
+        </div>
+        <div class="workTitle">
+            <span class="workB">
+                <div class="work1">
+                    <a href="https://www.kasperchou.com/stuff" target="blank">
+                        <img src="stuff.gif" class="workThumb"></img></a>
+                    <div class="workName">stuff</div>
+                </div>
+                <div class="work3">
+                    <a href="https://www.kasperchou.com/rabbit" target="blank">
+                        <img src="rabbit.gif" class="workThumb"></img></a>
+                    <div class="workName">rabbit</div>
+                </div>
+                <div class="work2">
+                    <a href="https://www.kasperchou.com/inherence" target="blank">
+                        <img src="inherence.gif" class="workThumb"></img></a>
+                    <div class="workName">inherence</div>
+
+                </div>
+            </span>
+        </div>
+        <div class="vlb">
+            <p>SCROLL for GenerativeArt</p>
+        </div>
+    </section>
+    <section>
+        <div class="footBack2"></div>
+    </section>
+    <section class="geart" id="geart">
+        <div class="vl">
+            <p>Generative Art</p>
+        </div>
+        <div class="workTitle">
+            <span class="workB">
+                <div class="work1">
+                    <a href="https://www.kasperchou.com/cellularsolarsystem" target="blank">
+                        <img src="cellularsolarsystem.gif" class="workThumb"></img></a>
+                    <div class="workName">cellularSolarSystem</div>
+                </div>
+                <div class="work2">
+                    <a href="https://www.kasperchou.com/generativelandscape" target="blank">
+                        <img src="generativelandscape.gif" class="workThumb"></img></a>
+                    <div class="workName">generativeLandscape</div>
+                </div>
+                <div class="work3">
+                    <a href="https://www.kasperchou.com/visualizingtime" target="blank">
+                        <img src="visualizingtime.gif" class="workThumb"></img></a>
+                    <div class="workName">visualizingtime</div>
+                </div>
+                <div class="work4">
+                    <a href="https://www.kasperchou.com/variableface" target="blank">
+                        <img src="variableface.gif" class="workThumb"></img></a>
+                    <div class="workName">variableface</div>
+                </div>
+            </span>
+        </div>
+        <div class="vlb">
+            <p>SCROLL for InteractionDesign</p>
+        </div>
+    </section>
+    <section>
+        <div class="footBack"></div>
+    </section>
+    <section class="interact" id="interact">
+        <div class="vl">
+            <p>Interaction Design</p>
+        </div>
+        <div class="workTitle">
+            <span class="workBInteract">
+                <div class="work1">
+                    <a href="https://www.kasperchou.com/interactiveapplication/1024" target="blank">
+                        <img src="circus.gif" class="workThumb"></img></a>
+                    <div class="workName">circus</div>
+                </div>
+                <div class="work2">
+                    <a href="https://www.kasperchou.com/interactiveapplication/1031" target="blank">
+                        <img src="tiltbrush.gif" class="workThumb"></img></a>
+                    <div class="workName">tiltbrush</div>
+                </div>
+                <div class="work3">
+                    <a href="https://www.kasperchou.com/interactiveapplication/1128" target="blank">
+                        <img src="pokingAnimal.gif" class="workThumb"></img></a>
+                    <div class="workName">pokingAnimal<br>(StillOnProgress)</div>
+                </div>
+                <div class="work6">
+                    <a href="https://www.kasperchou.com/interactiveapplication/0919" target="blank">
+                        <img src="pumpkineye.gif" class="workThumb"></img></a>
+                    <div class="workName">pumpkinEye</div>
+                </div>
+                <div class="work5">
+                    <a href="https://www.kasperchou.com/interactiveapplication/1003" target="blank">
+                        <img src="spawndestroy.gif" class="workThumb"></img></a>
+                    <div class="workName">spaw & destroy</div>
+                </div>
+                <div class="work4">
+                    <a href="https://www.kasperchou.com/interactiveapplication/1010" target="blank">
+                        <img src="vjlive.gif" class="workThumb"></img></a>
+                    <div class="workName">VJLive</div>
+                </div>
+            </span>
+        </div>
+        <div class="vlb">
+            <p>SCROLL for PhysicalComputing</p>
+        </div>
+    </section>
+    <section>
+        <div class="footBack1"></div>
+    </section>
+    <section class="pcom" id="pcom">
+        <div class="vl">
+            <p>physical computing</p>
+        </div>
+        <div class="workTitle">
+            <span class="workB">
+                <div class="work1">
+                    <a href="https://www.kasperchou.com/emoji" target="blank">
+                        <img src="emoji.gif" class="workThumb"></img></a>
+                    <div class="workName">emoji</div>
+                </div>
+                <div class="work2">
+                    <a href="https://www.kasperchou.com/teletubby" target="blank">
+                        <img src="teletubby.gif" class="workThumb"></img></a>
+                    <div class="workName">teletubby</div>
+                </div>
+                <div class="work3">
+                    <a href="https://www.kasperchou.com/lovemachine" target="blank">
+                        <img src="lovemachine.gif" class="workThumb"></img></a>
+                    <div class="workName">loveMachine</div>
+                </div>
+                <div class="work4">
+                    <a href="https://www.kasperchou.com/physicalinterfaceofnetworking/feb-22nd-web-server"
+                        target="blank">
+                        <img src="fish.gif" class="workThumb"></img></a>
+                    <div class="workName">fish</div>
+                </div>
+            </span>
+        </div>
+        <div class="vlb">
+            <p>SCROLL for GameDevelopment</p>
+        </div>
+    </section>
+    <section>
+        <div class="footBack6"></div>
+    </section>
+    <section class="game" id="game">
+        <div class="vl">
+            <p>game development</p>
+        </div>
+        <div class="workTitle">
+            <span class="workB">
+                <div class="work1">
+                    <a href="https://www.kasperchou.com/jellyfish" target="blank">
+                        <img src="jellyfish.gif" class="workThumb"></img></a>
+                    <div class="workName">jellyfish</div>
+                </div>
+                <div class="work2">
+                    <a href="https://www.kasperchou.com/tailwind" target="blank">
+                        <img src="tailwind.gif" class="workThumb"></img></a>
+                    <div class="workName">tailwind</div>
+                </div>
+                <div class="work3">
+                    <a href="https://www.kasperchou.com/rubegoldbergmachine" target="blank">
+                        <img src="rubegoldbergmachine.gif" class="workThumb"></img></a>
+                    <div class="workName">rubeGoldbergMachine</div>
+                </div>
+            </span>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="footBack5"></div>
+    </section>
+    <section class="footer">
+        <div class="navBar">
+            <div class="workGo">👁</div>
+            <a href="#work"> see WORK </a>
+        </div>
+        <div class="navBarHome">
+            <div class="homeGo">🐑</div>
+            <a href="index.html"> about ME </a>
+        </div>
+
+        <img src="sheep.png" class="footerLogo">
+        <div class="foot">
+                <span class="footerName">Kasper Chou&nbsp /</span>
+            <span class="footerLink">
+                <a href="https://www.youtube.com/channel/UCqK2j3EqNoE55HYAyu3EUMA?view_as=subscriber"
+                    target="_blank">YOUTUBE</a>
+                &nbsp &nbsp
+                <a href="https://www.instagram.com/see_ya_81/?hl=en" target="_blank">INSTAGRAM</a>
+                &nbsp &nbsp
+                <a href="https://www.facebook.com/chihhsin.chou.9" target="_blank">FACEBOOK</a>
+                &nbsp &nbsp
+                <a href="https://www.kasperchou.com/" target="_blank">CONTACT</a>
+
+            </span>
+        </div>
+    </section>
+
+</body>
+
+</html>
