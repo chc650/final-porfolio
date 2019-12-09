@@ -459,7 +459,7 @@ img.animation-reverse {
   width: 100vw;
   height: 100vh;
   pointer-events: none;
-  background-image: url(footBack1.PNG);
+  background-image: url(footBack1.png);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -479,7 +479,7 @@ img.animation-reverse {
   width: 100vw;
   height: 100vh;
   pointer-events: none;
-  background-image: url(footBack1.PNG);
+  background-image: url(footBack1.png);
   filter: invert(100%);
   background-attachment: fixed;
   background-size: cover;
@@ -512,7 +512,7 @@ img.animation-reverse {
   width: 100vw;
   height: 100vh;
   pointer-events: none;
-  background-image: url(footBack1.PNG);
+  background-image: url(footBack1.png);
   filter: hue-rotate(90deg);
   background-attachment: fixed;
   background-size: cover;
