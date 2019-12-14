@@ -1,0 +1,293 @@
+@media screen and (max-width: 720px) {
+  .aboutText {
+    height: 100vh;
+    font-size: 30px;
+    flex-direction: column;
+    padding: 10%;
+    box-sizing: border-box;
+  }
+  .about1{
+      position: relative;
+      padding: 5%;
+      margin: 0;
+      width: 100%;
+
+  }
+  .about2{
+      position: relative;
+      padding: 5%;
+      margin: 0;
+      width: 100%;
+  }
+  .name {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .nameF {
+    font-size: 200px;
+    padding: 0;
+    top: 0px;
+    margin: 0;
+    text-align: end;
+  }
+  .nameL {
+    font-size: 200px;
+    margin: 0%;
+
+    padding: 0;
+  }
+  .mainPic {
+    width: 60vw;
+  }
+
+  .slideshow-block {
+    width: 60vw;
+    height: 60vw;
+  }
+
+  .category {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .expCategory {
+    font-size: 50px;
+    width: 10vw;
+    /* line-height: 65px; */
+
+  }
+  .catDetail {
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 10px;
+  }
+  .courseDetail {
+    font-size: 20px;
+  }
+  .catSub {
+    font-size: 17px;
+    padding-left: 10px;
+    line-height: 30px;
+  }
+  .courseText {
+    flex-direction: column;
+    width: 85vw;
+    justify-content: space-between;
+  }
+  .courseTool {
+    /* width: 100vw; */
+    padding-right: 15px;
+
+    font-size: 17px;
+    line-height: 30px;
+    margin: 0;
+  }
+.expertCat{
+    width: 70vw;
+    padding-left: 7vw;
+}
+  .catBox {
+    width: 80vw;
+  }
+  .aboutinfo{
+      height:315vh;
+  }
+
+  .catL {
+    margin-left: 7vw;
+    width: 85vw;
+  }
+
+  .catR {
+      bottom: 5vh;
+
+    margin-left: 7vw;
+    transform: translateX(0vw);
+    height: 100vh;
+    width: 85vw;
+
+    
+  }
+
+.coursecategory {
+    font-size: 50px;
+    line-height: 60px;
+}
+  .catTextBox:hover .catSub{
+
+    font-size: 17px;
+  }
+  
+  .catTextBox:hover .catDetail{
+
+    font-size: 25px;
+  
+  }
+
+  .courseText:hover  .courseTool{
+
+    font-size: 17px;
+    
+  }
+  .courseText:hover  .courseDetail{
+
+    font-size: 25px;
+    
+  }
+
+  .frame {
+    border-top: solid 25px red;
+    border-bottom: solid 25px red;
+    border-right: solid 60px red;
+    border-left: solid 60px red;
+    box-sizing: border-box;
+  }
+  .workCat {
+    font-size: 15px;
+  }
+  .workNum {
+    font-size: 30px;
+  }
+  .workInfo {
+    visibility: hidden;
+    /* height: 10vh; */
+    width: 0;
+  }
+
+  .items .item:hover h1 {
+    font-size: 50px;
+  }
+  .items .item:hover h2 {
+    opacity: 1;
+    font-size: 32px;
+  }
+  .items .item {
+    background-color: silver;
+    /* padding: -500px; */
+  }
+
+  .dart {
+    height: 300vh;
+  }
+
+  .mograph {
+    height: 200vh;
+  }
+
+  .pcom {
+    height: 200vh;
+  }
+  .game {
+    height: 200vh;
+  }
+  .interact {
+    height: 300vh;
+  }
+  .geart {
+    height: 200vh;
+  }
+
+  .workB {
+    height: 200vh;
+    grid-template-columns: 15vw 1fr 15vw;
+    grid-template-rows: 5vw 1fr 5vw 1fr 5vw 1fr 5vw 1fr 5vw;
+  }
+  .workBInteract {
+    height: 300vh;
+    grid-template-columns: 15vw 1fr 15vw;
+    grid-template-rows: 5vw 1fr 5vw 1fr 5vw 1fr 5vw 1fr 5vw 1fr 5vw 1fr 5vw;
+  }
+
+  .work1 {
+    grid-column: 2;
+    grid-row: 2;
+    height: 30vh;
+  }
+  .work2 {
+    grid-column: 2;
+    grid-row: 4;
+    height: 30vh;
+  }
+  .work3 {
+    grid-column: 2;
+    grid-row: 6;
+    height: 30vh;
+    /* margin:0px; */
+  }
+  .work4 {
+    grid-column: 2;
+    grid-row: 8;
+    height: 30vh;
+  }
+  .work5 {
+    grid-column: 2;
+    grid-row: 10;
+    height: 30vh;
+  }
+  .work6 {
+    grid-column: 2;
+    grid-row: 12;
+    height: 30vh;
+  }
+  .workName {
+    font-size: 35px;
+  }
+  .workThumb {
+    width: 55vw;
+  }
+  .workThumb:hover {
+    width: 60vw;
+  }
+  .navNum h4 {
+    font-size: 30px;
+  }
+  .navNum a:hover h4 {
+    font-size: 40px;
+  }
+  .navNum .navTitle:hover p {
+    padding-right: 5px;
+  }
+  .navNum p {
+    font-size: 15px;
+    padding-right: 45px;
+  }
+  .navBar a {
+    font-size: 25px;
+  }
+  .navBarHome a {
+    font-size: 25px;
+  }
+  .navBar {
+    width: 70px;
+    right: 10px;
+  }
+  .navBarHome {
+    width: 70px;
+  }
+  .foot {
+    flex-direction: column;
+    top: 30vh;
+  }
+  .footerName {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .footerLink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+}
+
+@media screen and (max-width: 1100px) {
+}
+
+@media screen and (max-width: 720px) {
+}

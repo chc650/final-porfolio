@@ -12,12 +12,12 @@ body {
   margin: 0;
   padding: 0;
   width: 100vw;
+  overflow-x: hidden;
 }
 
-a{
-
+a {
   text-decoration-line: none;
-  transition: .5s;
+  transition: 0.5s;
   z-index: 5;
 }
 
@@ -27,8 +27,6 @@ a:hover {
   text-decoration-line: line-through;
 }
 
-
-
 section {
   height: 100vh;
   width: 100vw;
@@ -37,8 +35,7 @@ section {
   /* z-index: 5; */
 }
 
-
-.navBar{
+.navBar {
   position: fixed;
   top: 0vh;
   right: 0vw;
@@ -48,25 +45,21 @@ section {
   justify-content: center;
   width: 100px;
   height: 100vh;
-
-
 }
-.workGo{
-  font-size: 70px;
 
+
+.workGo {
+  font-size: 70px;
   padding: 10px;
   opacity: 0;
-
-  transition: .5s;
+  transition: 0.5s;
   height: 100vh;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  
-
 }
-.navBar a{
+.navBar a {
   font-size: 35px;
   /* position: relative; */
   left: 3px;
@@ -77,15 +70,15 @@ section {
   transform: rotate(-90deg);
 }
 
-.navBar:hover a{
+.navBar:hover a {
   text-decoration-line: line-through;
 }
-.workGo:hover{
+.workGo:hover {
   font-style: 300px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.navBarHome{
+.navBarHome {
   position: fixed;
   top: 0vh;
   left: 0vw;
@@ -95,25 +88,21 @@ section {
   justify-content: center;
   width: 100px;
   height: 100vh;
-
-
 }
-.homeGo{
+.homeGo {
   font-size: 70px;
 
   padding: 10px;
   opacity: 0;
 
-  transition: .5s;
+  transition: 0.5s;
   height: 100vh;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  
-
 }
-.navBarHome a{
+.navBarHome a {
   font-size: 35px;
   /* position: relative; */
   left: 3px;
@@ -123,13 +112,23 @@ section {
   color: wheat;
   transform: rotate(90deg);
 }
+/* .navBarHome a {
+  font-size: 35px;
 
-.navBarHome:hover a{
+  left: 3px;
+  margin-left: -90px;
+  text-align: center;
+  width: 100vw;
+  color: wheat;
+  transform: rotate(90deg);
+} */
+
+.navBarHome:hover a {
   text-decoration-line: line-through;
 }
-.homeGo:hover{
+.homeGo:hover {
   font-style: 300px;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .about {
@@ -149,7 +148,6 @@ section {
   z-index: 0;
 }
 .name {
-
   display: absolute;
   width: 100vw;
   font-size: 300px;
@@ -159,9 +157,11 @@ section {
   position: relative;
   overflow: hidden;
   margin-bottom: -380px;
-  padding-left: 250px;
+  /* padding-left: 250px; */
+  padding-left: 68vw;
   width: 100vw;
-  text-align: right;
+  text-align: left;
+  /* text-align: right; */
 }
 .nameL {
   overflow: hidden;
@@ -200,28 +200,29 @@ section {
   height: 200vh;
   position: relative;
 
-z-index: 6;
+  z-index: 6;
 }
 .catL {
-  margin-left: 18%;
-  margin-top: 3%;
+  margin-left: 18vw;
+  margin-top: 5vh;
   position: absolute;
+  width: 30vw;
 }
 
 .catR {
   position: absolute;
-  margin-top: 3%;
-  margin-left: 7%;
+  margin-top: 5vh;
+  margin-left: 4vw;
   transform: translateX(50vw);
   /* height: 100vh; */
-  width: 40vw;
+  width: 35vw;
 }
 
 .catBox {
-  width: 72vw;
+
   margin-top: 5%;
   overflow: hidden;
-  width: 40vw;
+  width: 30vw;
 }
 
 .category {
@@ -234,8 +235,26 @@ z-index: 6;
   opacity: 0.7;
   transition: 0.3s;
 }
+.expCategory {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  line-height: 80px;
+  font-size: 70px;
+  overflow: hidden;
+  color: red;
+  opacity: 0.7;
+  transition: 0.3s;
+  width: 6vw;
+  padding-right: 2vw;
+
+}
 
 .category:hover {
+  opacity: 1;
+
+  text-shadow: 0 0 5px #ff0000;
+}
+.expCategory:hover {
   opacity: 1;
 
   text-shadow: 0 0 5px #ff0000;
@@ -249,64 +268,14 @@ z-index: 6;
   transition: 0.3s;
 }
 
-.catDetail:hover {
-  text-shadow: 0 0 3px #ff0000, 0 0 3px #0000ff;
-  color: whitesmoke;
-  opacity: 0.5;
-  font-size: 50px;
-}
-
-.courseDetail {
-  font-size: 30px;
-  line-height: 40px;
-  padding-left: 15px;
-  width: 100vw;
-  overflow: visible;
-  color: rgb(30, 30, 30);
-  transition: 0.3s;
-  /* opacity: .7; */
-}
-
-.courseDetail:hover {
+/* .catDetail:hover {
   text-shadow: 0 0 3px #ff0000, 0 0 3px #0000ff;
   color: whitesmoke;
   opacity: 0.5;
   font-size: 35px;
-}
-.courseBox {
-  width: 72vw;
+} */
 
-  display: flex;
-}
-.coursecategory {
-  margin-top: 15%;
-  padding-top: 25px;
-  padding-bottom: 10px;
-  line-height: 80px;
-  font-size: 70px;
-  padding-right: -10px;
-  color: red;
-  opacity: 0.7;
-  transition: 0.3s;
-}
-.coursecategory:hover{
-  text-shadow: 0 0 5px #ff0000;
 
-  opacity: 1;
-}
-.courseTool {
-  width: 100vw;
-
-  text-align: end;
-  font-size: 20px;
-  line-height: 40px;
-  margin: 0;
-
-  margin-right: 120px;
-  color: wheat;
-  opacity: 0.3;
-  transition: 0.3s;
-}
 
 .catSub {
   color: wheat;
@@ -318,21 +287,128 @@ z-index: 6;
   transition: 0.3s;
 }
 
-.catSub:hover {
-  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+.catTextBox:hover .catSub{
+  text-shadow: 0 0 3px #ff0000, 0 0 3px #0000ff;
   opacity: 0.7;
   font-size: 23px;
 }
-.courseTool:hover {
+
+.catTextBox:hover .catDetail{
+  text-shadow: 0 0 3px #ff0000, 0 0 3px #0000ff;
+  color: whitesmoke;
+  opacity: 0.5;
+  font-size: 35px;
+
+}
+/* .catSub:hover {
   text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
   opacity: 0.7;
   font-size: 23px;
-}
+} */
 .expertCat {
   position: absolute;
   margin-top: -35vh;
   margin-left: 8vw;
+  /* padding: 2vw; */
 }
+
+
+
+
+
+
+.courseDetail {
+  font-size: 30px;
+  line-height: 40px;
+  padding-left: 15px;
+
+  /* width: 100vw; */
+  overflow: visible;
+  color: rgb(30, 30, 30);
+  transition: 0.3s;
+  /* opacity: .7; */
+}
+/* .courseDetail:hover {
+  text-shadow: 0 0 3px #ff0000, 0 0 3px #0000ff;
+  color: whitesmoke;
+  opacity: 0.5;
+  font-size: 35px;
+} */
+.courseBox {
+  width: 65vw;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.courseText{
+  display: flex;
+  justify-content: space-between;
+
+}
+.courseBox.courseText {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.courseText:hover  {
+  box-shadow: 0 0 5px #ff0000;
+  font-size: 35px;
+}
+.courseText:hover  .courseTool{
+color: whitesmoke;
+
+  text-shadow: 0 0 3px #ff0000, 0 0 3px #0000ff;
+  opacity: 0.7;
+  font-size: 30px;
+  
+}
+.courseText:hover  .courseDetail{
+  text-shadow: 0 0 3px #ff0000, 0 0 3px #0000ff;
+  color: whitesmoke;
+  opacity: 0.5;
+  font-size: 35px;
+  
+}
+
+
+.coursecategory {
+  margin-top: 15%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  line-height: 80px;
+  font-size: 70px;
+  padding-right: -10px;
+  color: red;
+  opacity: 0.7;
+  transition: 0.3s;
+  
+}
+.coursecategory:hover  {
+  opacity: 1;
+
+  text-shadow: 0 0 5px #ff0000;
+}
+
+.courseTool {
+  /* width: 100vw; */
+  padding-right: 15px;
+
+  text-align: end;
+  font-size: 20px;
+  line-height: 40px;
+  margin: 0;
+
+  /* margin-right: 120px; */
+  color: wheat;
+  opacity: 0.3;
+  transition: 0.3s;
+}
+
+
+
 
 .vl {
   position: absolute;
@@ -345,16 +421,16 @@ z-index: 6;
   border-left: 4px solid orangered;
   opacity: 0.7;
   height: 130px;
-  margin-left: -15px;
-  margin-top: 40px;
+  /* margin-left: -15px; */
+  /* margin-top: 40px; */
 }
 .vl3 {
   position: absolute;
   border-left: 4px solid orangered;
   opacity: 0.7;
   height: 90px;
-  margin-left: -15px;
-  margin-top: 40px;
+  /* margin-left: -15px;
+  margin-top: 40px; */
 }
 .vlp1 {
   position: absolute;
@@ -375,6 +451,15 @@ z-index: 6;
   height: 190px;
 }
 
+
+
+
+
+
+
+
+
+
 .footer {
   position: relative;
   height: 200vh;
@@ -384,7 +469,6 @@ z-index: 6;
   z-index: 5;
 }
 .foot {
-
   font-size: 30px;
   /* color: whitesmoke; */
   position: fixed;
@@ -398,15 +482,13 @@ z-index: 6;
   top: 50%; */
 }
 
-.footerName{
+.footerName {
   color: lightgray;
-  transition: .5s;
-
+  transition: 0.5s;
 }
-.footerName:hover{
+.footerName:hover {
   text-shadow: 0px 0px 10px navy;
 }
-
 
 .footerLogo {
   position: relative;
@@ -418,7 +500,7 @@ z-index: 6;
   pointer-events: none;
 }
 
-.footBack1{
+.footBack1 {
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -426,8 +508,9 @@ z-index: 6;
   background-image: url(footBack1.png);
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 }
-.footBack{
+.footBack {
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -435,35 +518,30 @@ z-index: 6;
   background-image: url(footBack.PNG);
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 }
 .footer a {
   text-decoration-line: none;
   color: lightsalmon;
-  transition: .5s;
-
+  transition: 0.5s;
 }
-.footer a:hover{
+.footer a:hover {
   text-decoration-line: line-through;
 }
 
 .imgContainer {
   box-shadow: 0 0 20px whitesmoke;
   position: absolute;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-
-.imgContainer:hover{
+.imgContainer:hover {
   box-shadow: 0 0 20px black;
-
-
-
 }
 .mainPic {
   width: 40vw;
   filter: hue-rotate(90deg);
 }
-
 
 .slideshow-block {
   position: relative;
@@ -471,7 +549,6 @@ z-index: 6;
   height: 40vw;
 
   overflow: hidden;
-  
 }
 
 .slides {
@@ -485,6 +562,3 @@ z-index: 6;
 .clear {
   clear: both;
 }
-
-
-

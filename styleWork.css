@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 section {
@@ -127,6 +128,11 @@ a:hover {
 }
 .navNum a {
   /* z-index: 10; */
+}
+.navTitle .item{
+  display: flex;
+  align-items: center;
+
 }
 
 .work {
@@ -432,6 +438,7 @@ img.animation-reverse {
 }
 .foot {
 
+
   font-size: 30px;
   color: whitesmoke;
   position: fixed;
@@ -462,6 +469,7 @@ img.animation-reverse {
   background-image: url(footBack1.png);
   background-attachment: fixed;
   background-size: cover;
+
 }
 .footBack{
   position: absolute;
@@ -471,6 +479,7 @@ img.animation-reverse {
   background-image: url(footBack.PNG);
   background-attachment: fixed;
   background-size: cover;
+
   
 }
 
@@ -483,6 +492,7 @@ img.animation-reverse {
   filter: invert(100%);
   background-attachment: fixed;
   background-size: cover;
+  background-position: right;
 }
 .footBack3{
   position: absolute;
@@ -493,6 +503,7 @@ img.animation-reverse {
   filter: invert(100%);
   background-attachment: fixed;
   background-size: cover;
+  background-position: right;
   
 }
 .footBack4{
@@ -516,6 +527,8 @@ img.animation-reverse {
   filter: hue-rotate(90deg);
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
+  
 }
 .footBack6{
   position: absolute;
@@ -526,6 +539,7 @@ img.animation-reverse {
   filter: hue-rotate(90deg);
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
   
 }
 .footer a {
