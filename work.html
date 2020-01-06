@@ -10,12 +10,21 @@
     <link rel="stylesheet" href="./styleWork.css">
     <link rel="stylesheet" href="mediaQuery.css">
     <script src="jquery.min.js"></script>
+    <script src="jquery-2.1.4.js"></script>
     <script src="jquery.cycle.all.js"></script>
     <script src="script.js"></script>
 
 </head>
 
 <body>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+          $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+          });
+      </script>
 
 
     <section id="work" class="work">
