@@ -1,3 +1,8 @@
+$(window).on("load",function(){
+  $(".loader-wrapper").fadeOut("slow");
+});
+
+
 function changeImage(url, clr) {
   document.getElementById("projImage").src = url;
   document.getElementsByClassName("workBody")[0].style.backgroundColor = clr;
@@ -158,3 +163,5 @@ $(document).ready(function() {
 
  
 });
+
+
