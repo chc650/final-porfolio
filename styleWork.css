@@ -655,15 +655,6 @@ img.animation-reverse {
   font-style: 300px;
   opacity: .5;
 }
-/* 
-.loadSec{
-  background-color: black;
-  z-index: 100;
-  height: 500vh;
-
-
-
-} */
 
 .loader-wrapper {
   width: 100%;
@@ -671,7 +662,7 @@ img.animation-reverse {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #242f3f;
+  background-color: #06080b;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -680,17 +671,19 @@ img.animation-reverse {
 }
 .loader {
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   position: relative;
-  border: 4px solid #Fff;
+  border: 15px solid rgb(255, 98, 0);
   animation: loader 2s infinite ease;
+  border-radius: 5px 30px 0px 15px;
 }
 .loader-inner {
-  vertical-align: top;
+   vertical-align: top;
+
   display: inline-block;
   width: 100%;
-  background-color: #fff;
+  background-color:  rgb(255, 0, 0);
   animation: loader-inner 2s infinite ease-in;
 }
 @keyframes loader {
